@@ -3,14 +3,13 @@
 A beginner-friendly **Streamlit + SQLite + Pandas + Plotly** study planner. It is **rule-based and fully offline**:
 no GPU, no local LLM, no API key needed for any core feature.
 
-It is built on the database you supplied (`study_planner.db`, 4 subjects, 43 topics, 215 quiz questions, sample
-sessions/quizzes/revisions/plan rows). The app opens **that same database** - nothing is duplicated or re-created.
+It uses a starter SQLite dataset (4 subjects, 43 topics, 215 quiz questions) with fictional sample data.
 
 ## Quick start (Windows + VS Code)
 
-1. Right-click `ai_study_planner_app.zip` -> **Extract All...** and pick a folder (e.g. `Documents`).
-2. Open **VS Code** -> **File > Open Folder...** -> choose the extracted `study_planner_app` folder.
-3. Open a terminal: **Terminal > New Terminal**.
+1. Download the project: `git clone https://github.com/parimithasamy-hue/ai-study-planner.git`
+2. Go into the folder: `cd ai-study-planner`
+3. Open the folder in VS Code and open a terminal (**Terminal > New Terminal**).
 4. (Recommended) create a virtual environment:
    ```
    python -m venv .venv
