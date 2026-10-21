@@ -1,0 +1,5 @@
+streamlit>=1.35,<2
+pandas>=2.0
+plotly>=5.18
+# Optional (only for the clearly-marked AI summary button; the app does not need it):
+# anthropic

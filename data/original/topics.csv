@@ -1,0 +1,44 @@
+topic_id,subject_id,topic_name,difficulty,estimated_hours,status,last_studied_date
+1,1,Variables and Data Types,1,1.0,completed,2026-10-17
+2,1,Operators,2,1.0,in_progress,2026-10-18
+3,1,Conditions and Loops,2,1.5,pending,
+4,1,Functions,3,2.0,pending,
+5,1,Lists and Tuples,3,1.5,pending,
+6,1,Dictionaries and Sets,3,1.5,completed,2026-10-19
+7,1,Strings,2,1.0,in_progress,2026-10-17
+8,1,Exception Handling,3,1.5,pending,
+9,1,File Handling,3,1.5,pending,
+10,1,Object-Oriented Programming,5,3.0,pending,
+11,1,Modules and Packages,3,1.0,completed,2026-10-18
+12,1,JSON and APIs,4,2.0,in_progress,2026-10-19
+13,2,DBMS Fundamentals,2,1.0,completed,2026-10-17
+14,2,ER Model,3,1.5,in_progress,2026-10-18
+15,2,SQL Queries,3,2.0,pending,
+16,2,Joins and Aggregations,4,2.0,pending,
+17,2,Normalization,4,2.0,pending,
+18,2,Transactions,4,2.0,completed,2026-10-19
+19,2,ACID Properties,3,1.0,in_progress,2026-10-17
+20,2,Indexing,3,1.5,pending,
+21,2,Keys and Constraints,3,1.5,pending,
+22,2,Relational Algebra,4,2.0,pending,
+23,2,Concurrency Control,5,2.5,completed,2026-10-18
+24,3,Network Fundamentals,2,1.0,completed,2026-10-17
+25,3,OSI Model,2,1.0,in_progress,2026-10-18
+26,3,TCP and UDP,3,1.5,pending,
+27,3,IP Addressing,4,2.0,pending,
+28,3,Subnetting,5,2.5,pending,
+29,3,Routing Algorithms,5,2.5,completed,2026-10-19
+30,3,DNS and HTTP,3,1.5,in_progress,2026-10-17
+31,3,Network Security Basics,4,2.0,pending,
+32,3,Switching,3,1.5,pending,
+33,3,Error Detection,4,2.0,pending,
+34,4,Logic Equivalence,3,1.5,completed,2026-10-17
+35,4,Sets and Relations,3,1.5,in_progress,2026-10-18
+36,4,Functions,3,1.5,pending,
+37,4,Combinatorics,4,2.0,pending,
+38,4,Probability,4,2.0,pending,
+39,4,Linear Algebra,4,2.0,completed,2026-10-19
+40,4,Matrices,3,1.5,in_progress,2026-10-17
+41,4,Calculus,5,2.5,pending,
+42,4,Graph Theory,4,2.0,pending,
+43,4,Recurrence Relations,5,2.5,pending,

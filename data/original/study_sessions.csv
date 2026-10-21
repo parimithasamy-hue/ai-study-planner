@@ -1,0 +1,12 @@
+session_id,topic_id,study_date,duration_minutes,completed,notes
+1,1,2026-10-15,45,1,Fictional sample record for demo testing
+2,3,2026-10-16,50,1,Fictional sample record for demo testing
+3,4,2026-10-17,35,0,Fictional sample record for demo testing
+4,5,2026-10-18,40,1,Fictional sample record for demo testing
+5,15,2026-10-19,55,1,Fictional sample record for demo testing
+6,17,2026-10-20,35,0,Fictional sample record for demo testing
+7,16,2026-10-15,30,0,Fictional sample record for demo testing
+8,25,2026-10-16,35,1,Fictional sample record for demo testing
+9,26,2026-10-17,40,0,Fictional sample record for demo testing
+10,34,2026-10-18,35,0,Fictional sample record for demo testing
+11,38,2026-10-19,25,0,Fictional sample record for demo testing

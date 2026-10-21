@@ -1,0 +1,216 @@
+question_id,topic_id,question_text,option_a,option_b,option_c,option_d,correct_option,explanation,difficulty
+1,1,Which Python type stores whole numbers?,str,int,float,bool,B,The int type stores integers.,1
+2,1,What is the type of '42' in Python?,int,float,str,bool,C,Quotes make it a string literal.,1
+3,1,Which value is a Boolean?,'True',1.0,True,'False',C,True without quotes is a Boolean value.,1
+4,1,Which function checks a value's type?,type(),input(),print(),len(),A,type(value) returns its type.,1
+5,1,What does input() return by default?,int,float,str,bool,C,input() returns text; convert it when needed.,2
+6,2,Which operator performs exponentiation in Python?,^,**,//,%,B,The ** operator raises a number to a power.,1
+7,2,What does 7 // 2 evaluate to?,3.5,4,3,1,C,Floor division returns the floor of the quotient.,2
+8,2,Which operator tests equality?,=,==,:=,!=,B,== compares two values for equality.,1
+9,2,What is 10 % 3?,0,1,3,3.33,B,Modulo returns the remainder.,1
+10,2,Which operator means logical AND?,&,and,&&,all,B,Python uses the keyword and for logical conjunction.,1
+11,3,Which keyword starts a conditional branch?,when,if,case,check,B,if begins a conditional statement.,1
+12,3,Which loop iterates over items in a sequence?,repeat,foreach,for,iterate,C,for iterates over an iterable.,1
+13,3,What does break do inside a loop?,Skips one iteration,Ends the loop,Restarts loop,Pauses program,B,break exits the nearest loop.,2
+14,3,What does continue do?,Ends program,Skips to next iteration,Exits all functions,Repeats previous line,B,continue moves to the next iteration.,2
+15,3,Which keyword handles the alternative branch?,else,otherwise,default,elifonly,A,else runs when previous conditions are false.,1
+16,4,Which keyword defines a function?,func,define,def,function,C,Python function definitions start with def.,1
+17,4,What does return do?,Prints always,Sends a result back to caller,Repeats function,Imports a module,B,return exits a function and can provide a value.,2
+18,4,What is a parameter?,A function input variable,A loop,A module,An error,A,Parameters receive values passed to a function.,2
+19,4,Which call correctly invokes greet with no arguments?,greet,call greet(),greet(),def greet,C,Use the function name followed by parentheses.,1
+20,4,What is a default argument?,A required argument,A value used if caller omits argument,A return type,A global variable,B,Default values are used when an argument is not provided.,2
+21,5,Which structure is mutable?,tuple,list,str,int,B,Lists can be changed after creation.,1
+22,5,How do you access the first list item?,items[1],items[0],items.first,items(-1),B,Python indexing starts at zero.,1
+23,5,Which brackets commonly create a tuple?,[],{},(),<>,C,Parentheses commonly denote tuple literals.,1
+24,5,What does append() do?,Removes item,Adds item to list end,Sorts list,Copies list,B,append adds one item at the end.,1
+25,5,"What does len([2,4,6]) return?",2,3,6,12,B,There are three elements.,1
+26,6,A dictionary stores what kind of relationship?,Only ordered numbers,Key-value pairs,Only unique values,Rows and columns only,B,Dictionaries map keys to values.,1
+27,6,Which literal represents an empty set?,{},[],set(),(),C,{} creates an empty dictionary; set() creates an empty set.,2
+28,6,What is a key property of a set?,Allows duplicate items,Stores only strings,Contains unique elements,Uses numeric indexes,C,Sets contain unique elements.,1
+29,6,How do you get key 'name' from d?,d.name,d['name'],d(name),d->name,B,Square-bracket indexing retrieves a dictionary value.,1
+30,6,Which method returns dictionary keys?,values(),items(),keys(),getkeys(),C,keys() provides a view of dictionary keys.,1
+31,7,Which method makes a string lowercase?,lower(),small(),casefolding(),down(),A,lower() returns a lowercase version.,1
+32,7,What does 'abc'[0] return?,a,b,c,abc,A,Index zero is the first character.,1
+33,7,Which operator concatenates strings?,+,* only,% only,//,A,The plus operator joins strings.,1
+34,7,Are Python strings mutable?,Yes,No,Only if long,Only numbers,B,Strings are immutable.,2
+35,7,What does split() usually return?,Integer,List of pieces,Dictionary,Boolean,B,split separates text into a list.,1
+36,8,Which block catches an exception?,try,except,catch,finally,B,except handles matching exceptions.,1
+37,8,What is finally commonly used for?,Repeat code,Cleanup that should run,Define a class,Create a list,B,finally typically runs whether or not an exception occurs.,2
+38,8,Which exception can int('hello') raise?,KeyError,ValueError,IndexError,NameError,B,The text cannot be converted to an integer.,2
+39,8,What does raise do?,Suppresses errors,Raises an exception,Imports code,Ends a loop only,B,raise triggers an exception.,2
+40,8,Code that may fail is often placed inside which block?,try,else only,finally only,except only,A,try contains code to monitor for exceptions.,1
+41,9,Which function opens a file?,file(),open(),readfile(),load(),B,open() returns a file object.,1
+42,9,Which mode appends to a file?,r,w,a,x,C,The a mode appends content.,1
+43,9,Why use a with statement for files?,Makes file global,Helps close file automatically,Deletes file,Encrypts file,B,The context manager closes the file when the block ends.,2
+44,9,Which method reads file contents?,read(),scan(),inputfile(),fetch(),A,read() reads file content.,1
+45,9,What can happen when opening a missing file in read mode?,FileNotFoundError,ZeroDivisionError,TypeError always,No error ever,A,Opening a nonexistent file for reading usually raises FileNotFoundError.,2
+46,10,Which keyword defines a class?,object,class,struct,new,B,class defines a class in Python.,1
+47,10,What is self commonly used for?,Refers to current instance,Imports a class,Ends a method,Creates a loop,A,self refers to the instance passed to an instance method.,2
+48,10,What is inheritance?,One class derives from another,Deleting an object,A type of loop,Saving a file,A,Inheritance allows a class to reuse or extend another class.,2
+49,10,Which method commonly initializes an instance?,__start__,__init__,constructor(),initClass(),B,__init__ is the initializer method.,2
+50,10,Encapsulation is about what?,Bundling data and methods,Sorting values,Repeating loops,Connecting to internet,A,Encapsulation groups data with the methods that operate on it.,2
+51,11,Which built-in function displays output?,input(),print(),type(),range(),B,print() writes output to the console.,1
+52,11,Which data structure maps keys to values?,list,tuple,dictionary,string,C,A dictionary stores key-value pairs.,1
+53,11,What does len() return for a sequence?,Its length,Its type,Its memory address,Its last item,A,len() returns the number of items.,1
+54,11,Which statement imports a module?,include math,import math,using math,module math,B,import loads a module namespace.,1
+55,11,Which keyword defines a function?,func,def,method,lambda only,B,def defines a function.,1
+56,12,Which built-in function displays output?,input(),print(),type(),range(),B,print() writes output to the console.,1
+57,12,Which data structure maps keys to values?,list,tuple,dictionary,string,C,A dictionary stores key-value pairs.,1
+58,12,What does len() return for a sequence?,Its length,Its type,Its memory address,Its last item,A,len() returns the number of items.,1
+59,12,Which statement imports a module?,include math,import math,using math,module math,B,import loads a module namespace.,1
+60,12,Which keyword defines a function?,func,def,method,lambda only,B,def defines a function.,1
+61,13,Which key uniquely identifies a row?,Foreign key only,Primary key,Duplicate key,Nullable key,B,A primary key uniquely identifies each row.,1
+62,13,Which command creates a table?,MAKE TABLE,CREATE TABLE,INSERT TABLE,NEW TABLE,B,CREATE TABLE defines a table.,1
+63,13,Which constraint prevents duplicate values?,UNIQUE,DEFAULT,CHECK only,COMMENT,A,UNIQUE disallows duplicate values for constrained columns.,2
+64,13,Which statement changes existing rows?,UPDATE,INSERT,CREATE,SELECT only,A,UPDATE modifies existing records.,1
+65,13,Which clause joins rows based on a condition?,ON,ORDER,LIMIT,VALUES,A,ON specifies the join condition.,2
+66,14,Which key uniquely identifies a row?,Foreign key only,Primary key,Duplicate key,Nullable key,B,A primary key uniquely identifies each row.,1
+67,14,Which command creates a table?,MAKE TABLE,CREATE TABLE,INSERT TABLE,NEW TABLE,B,CREATE TABLE defines a table.,1
+68,14,Which constraint prevents duplicate values?,UNIQUE,DEFAULT,CHECK only,COMMENT,A,UNIQUE disallows duplicate values for constrained columns.,2
+69,14,Which statement changes existing rows?,UPDATE,INSERT,CREATE,SELECT only,A,UPDATE modifies existing records.,1
+70,14,Which clause joins rows based on a condition?,ON,ORDER,LIMIT,VALUES,A,ON specifies the join condition.,2
+71,15,Which SQL command retrieves rows?,GET,SELECT,FETCH ALL only,OPEN,B,SELECT queries data.,1
+72,15,Which clause filters rows?,ORDER BY,WHERE,GROUP BY,JOIN,B,WHERE applies row conditions.,1
+73,15,Which function counts rows?,SUM(),COUNT(),TOTALROWS(),NUMBER(),B,COUNT counts rows or non-null values.,1
+74,15,Which clause sorts results?,SORT,ORDER BY,ARRANGE,SEQUENCE,B,ORDER BY sorts query output.,1
+75,15,Which command adds a row?,INSERT INTO,ALTER ROW,ADD TABLE,CREATE ROW,A,INSERT INTO adds records.,1
+76,16,Which join returns matching rows from both tables?,INNER JOIN,CROSS JOIN,FULL JOIN always,SELF ONLY,A,INNER JOIN returns rows with matches on both sides.,2
+77,16,Which aggregate adds numeric values?,COUNT(),SUM(),AVGONLY(),ADDROWS(),B,SUM returns the total.,1
+78,16,Which clause groups rows for aggregates?,GROUP BY,ORDER BY,WHERE,LIMIT,A,GROUP BY forms groups for aggregate calculations.,2
+79,16,Which join preserves all rows from the left table?,RIGHT JOIN,INNER JOIN,LEFT JOIN,CROSS JOIN,C,LEFT JOIN includes all left-side rows.,2
+80,16,Which clause filters grouped aggregate results?,WHERE,HAVING,FROM,SELECT,B,HAVING filters groups after aggregation.,3
+81,17,What is the main goal of normalization?,Increase duplication,Reduce redundancy and anomalies,Remove all keys,Encrypt tables,B,Normalization organizes relations to reduce redundancy.,2
+82,17,A table is in 1NF when values are generally what?,Atomic,Always numeric,Encrypted,Sorted,A,First normal form requires atomic values and no repeating groups.,3
+83,17,A partial dependency is relevant to which normal form?,1NF,2NF,4NF only,None,B,2NF addresses partial dependency on a candidate key.,4
+84,17,A transitive dependency is addressed by which normal form?,1NF,2NF only,3NF,No normal form,C,Third normal form addresses transitive dependencies under its formal conditions.,4
+85,17,Normalization can help prevent what?,Data anomalies,All queries,Primary keys,Indexes,A,"Normalization reduces insertion, update, and deletion anomalies.",2
+86,18,What does COMMIT do?,Undo transaction,Make transaction changes permanent,Create a table,Sort records,B,COMMIT saves transaction changes.,2
+87,18,What does ROLLBACK do?,Undo uncommitted changes,Add a column,Create index,Count rows,A,ROLLBACK reverses uncommitted transaction changes.,2
+88,18,Which ACID property means all-or-nothing?,Consistency,Isolation,Atomicity,Durability,C,Atomicity means a transaction fully succeeds or fails.,2
+89,18,Which ACID property preserves valid rules?,Consistency,Atomicity,Isolation,Durability,A,Consistency keeps database constraints satisfied.,3
+90,18,Which ACID property concerns committed changes surviving failure?,Isolation,Durability,Atomicity,Consistency,B,Durability means committed changes persist.,3
+91,19,What does the A in ACID stand for?,Availability,Atomicity,Accuracy,Authorization,B,A stands for Atomicity.,1
+92,19,Which property isolates concurrent transactions?,Isolation,Durability,Atomicity,Consistency,A,Isolation controls interference between concurrent transactions.,2
+93,19,Which property requires a transaction to preserve constraints?,Durability,Consistency,Atomicity,Isolation,B,Consistency maintains valid database states.,2
+94,19,Which property ensures committed data persists?,Durability,Isolation,Atomicity,Consistency,A,Durability preserves committed changes.,2
+95,19,ACID is most associated with what?,Database transactions,CSS layout,Image formats,Sorting algorithms only,A,ACID describes key transaction properties.,1
+96,20,Which key uniquely identifies a row?,Foreign key only,Primary key,Duplicate key,Nullable key,B,A primary key uniquely identifies each row.,1
+97,20,Which command creates a table?,MAKE TABLE,CREATE TABLE,INSERT TABLE,NEW TABLE,B,CREATE TABLE defines a table.,1
+98,20,Which constraint prevents duplicate values?,UNIQUE,DEFAULT,CHECK only,COMMENT,A,UNIQUE disallows duplicate values for constrained columns.,2
+99,20,Which statement changes existing rows?,UPDATE,INSERT,CREATE,SELECT only,A,UPDATE modifies existing records.,1
+100,20,Which clause joins rows based on a condition?,ON,ORDER,LIMIT,VALUES,A,ON specifies the join condition.,2
+101,21,Which key uniquely identifies a row?,Foreign key only,Primary key,Duplicate key,Nullable key,B,A primary key uniquely identifies each row.,1
+102,21,Which command creates a table?,MAKE TABLE,CREATE TABLE,INSERT TABLE,NEW TABLE,B,CREATE TABLE defines a table.,1
+103,21,Which constraint prevents duplicate values?,UNIQUE,DEFAULT,CHECK only,COMMENT,A,UNIQUE disallows duplicate values for constrained columns.,2
+104,21,Which statement changes existing rows?,UPDATE,INSERT,CREATE,SELECT only,A,UPDATE modifies existing records.,1
+105,21,Which clause joins rows based on a condition?,ON,ORDER,LIMIT,VALUES,A,ON specifies the join condition.,2
+106,22,Which key uniquely identifies a row?,Foreign key only,Primary key,Duplicate key,Nullable key,B,A primary key uniquely identifies each row.,1
+107,22,Which command creates a table?,MAKE TABLE,CREATE TABLE,INSERT TABLE,NEW TABLE,B,CREATE TABLE defines a table.,1
+108,22,Which constraint prevents duplicate values?,UNIQUE,DEFAULT,CHECK only,COMMENT,A,UNIQUE disallows duplicate values for constrained columns.,2
+109,22,Which statement changes existing rows?,UPDATE,INSERT,CREATE,SELECT only,A,UPDATE modifies existing records.,1
+110,22,Which clause joins rows based on a condition?,ON,ORDER,LIMIT,VALUES,A,ON specifies the join condition.,2
+111,23,Which key uniquely identifies a row?,Foreign key only,Primary key,Duplicate key,Nullable key,B,A primary key uniquely identifies each row.,1
+112,23,Which command creates a table?,MAKE TABLE,CREATE TABLE,INSERT TABLE,NEW TABLE,B,CREATE TABLE defines a table.,1
+113,23,Which constraint prevents duplicate values?,UNIQUE,DEFAULT,CHECK only,COMMENT,A,UNIQUE disallows duplicate values for constrained columns.,2
+114,23,Which statement changes existing rows?,UPDATE,INSERT,CREATE,SELECT only,A,UPDATE modifies existing records.,1
+115,23,Which clause joins rows based on a condition?,ON,ORDER,LIMIT,VALUES,A,ON specifies the join condition.,2
+116,24,What does DNS translate?,Domain names to IP addresses,Files to folders,TCP to UDP,Images to text,A,DNS resolves names to records such as IP addresses.,1
+117,24,Which device forwards traffic between networks?,Router,Keyboard,Monitor,Repeater only,A,Routers forward packets between networks.,1
+118,24,What does bandwidth broadly measure?,Data carrying capacity,Screen brightness,Cable length only,Password strength,A,Bandwidth describes a link's data carrying capacity.,2
+119,24,Which protocol commonly assigns IP settings automatically?,DHCP,HTML,SMTP,SSH,A,DHCP can assign IP configuration automatically.,2
+120,24,HTTPS protects web traffic using what?,TLS,Plain text only,DNS only,FTP,A,HTTPS uses TLS to protect HTTP communication.,2
+121,25,How many layers are in the OSI model?,4,5,7,8,C,The OSI reference model has seven layers.,1
+122,25,Which layer routes packets between networks?,Physical,Network,Presentation,Session,B,The network layer handles logical addressing and routing.,2
+123,25,Which layer is responsible for framing and MAC addressing?,Data Link,Application,Transport,Session,A,The data link layer handles frames and MAC-level delivery.,3
+124,25,Which layer provides end-to-end transport?,Network,Transport,Physical,Presentation,B,The transport layer provides end-to-end transport services.,2
+125,25,HTTP belongs most closely to which OSI layer?,Application,Physical,Data Link,Network,A,HTTP is an application-layer protocol.,1
+126,26,Which protocol is connection-oriented?,UDP,TCP,IP,ARP,B,TCP establishes a connection and provides reliable ordered delivery.,1
+127,26,Which protocol has lower overhead and no delivery guarantee?,TCP,UDP,HTTPS,SSH,B,UDP is connectionless and does not guarantee delivery.,2
+128,26,Which protocol is commonly preferred for live voice/video?,UDP,TCP only,FTP,SMTP,A,Real-time media often uses UDP to reduce latency.,2
+129,26,TCP provides what feature?,Reliable ordered byte stream,No sequencing,Only broadcast,No error checking,A,TCP provides reliable ordered byte-stream delivery.,2
+130,26,Which protocol is commonly used for domain name lookup?,DNS,DHCP only,SMTP,SSH,A,DNS resolves domain names.,1
+131,27,What does IP stand for?,Internet Protocol,Internal Program,Integrated Port,Internet Provider,A,IP means Internet Protocol.,1
+132,27,An IPv4 address contains how many bits?,16,32,64,128,B,IPv4 addresses are 32 bits long.,1
+133,27,An IPv6 address contains how many bits?,32,64,128,256,C,IPv6 addresses are 128 bits long.,1
+134,27,What does a subnet mask help identify?,Network and host portions,Website title,Transport protocol only,File type,A,A subnet mask divides network and host portions of an IPv4 address.,3
+135,27,Which is a private IPv4 range example?,8.8.8.8,192.168.1.10,1.1.1.1,203.0.113.5 always public,B,192.168.0.0/16 is a private IPv4 range.,2
+136,28,What does DNS translate?,Domain names to IP addresses,Files to folders,TCP to UDP,Images to text,A,DNS resolves names to records such as IP addresses.,1
+137,28,Which device forwards traffic between networks?,Router,Keyboard,Monitor,Repeater only,A,Routers forward packets between networks.,1
+138,28,What does bandwidth broadly measure?,Data carrying capacity,Screen brightness,Cable length only,Password strength,A,Bandwidth describes a link's data carrying capacity.,2
+139,28,Which protocol commonly assigns IP settings automatically?,DHCP,HTML,SMTP,SSH,A,DHCP can assign IP configuration automatically.,2
+140,28,HTTPS protects web traffic using what?,TLS,Plain text only,DNS only,FTP,A,HTTPS uses TLS to protect HTTP communication.,2
+141,29,What does DNS translate?,Domain names to IP addresses,Files to folders,TCP to UDP,Images to text,A,DNS resolves names to records such as IP addresses.,1
+142,29,Which device forwards traffic between networks?,Router,Keyboard,Monitor,Repeater only,A,Routers forward packets between networks.,1
+143,29,What does bandwidth broadly measure?,Data carrying capacity,Screen brightness,Cable length only,Password strength,A,Bandwidth describes a link's data carrying capacity.,2
+144,29,Which protocol commonly assigns IP settings automatically?,DHCP,HTML,SMTP,SSH,A,DHCP can assign IP configuration automatically.,2
+145,29,HTTPS protects web traffic using what?,TLS,Plain text only,DNS only,FTP,A,HTTPS uses TLS to protect HTTP communication.,2
+146,30,What does DNS translate?,Domain names to IP addresses,Files to folders,TCP to UDP,Images to text,A,DNS resolves names to records such as IP addresses.,1
+147,30,Which device forwards traffic between networks?,Router,Keyboard,Monitor,Repeater only,A,Routers forward packets between networks.,1
+148,30,What does bandwidth broadly measure?,Data carrying capacity,Screen brightness,Cable length only,Password strength,A,Bandwidth describes a link's data carrying capacity.,2
+149,30,Which protocol commonly assigns IP settings automatically?,DHCP,HTML,SMTP,SSH,A,DHCP can assign IP configuration automatically.,2
+150,30,HTTPS protects web traffic using what?,TLS,Plain text only,DNS only,FTP,A,HTTPS uses TLS to protect HTTP communication.,2
+151,31,What does DNS translate?,Domain names to IP addresses,Files to folders,TCP to UDP,Images to text,A,DNS resolves names to records such as IP addresses.,1
+152,31,Which device forwards traffic between networks?,Router,Keyboard,Monitor,Repeater only,A,Routers forward packets between networks.,1
+153,31,What does bandwidth broadly measure?,Data carrying capacity,Screen brightness,Cable length only,Password strength,A,Bandwidth describes a link's data carrying capacity.,2
+154,31,Which protocol commonly assigns IP settings automatically?,DHCP,HTML,SMTP,SSH,A,DHCP can assign IP configuration automatically.,2
+155,31,HTTPS protects web traffic using what?,TLS,Plain text only,DNS only,FTP,A,HTTPS uses TLS to protect HTTP communication.,2
+156,32,What does DNS translate?,Domain names to IP addresses,Files to folders,TCP to UDP,Images to text,A,DNS resolves names to records such as IP addresses.,1
+157,32,Which device forwards traffic between networks?,Router,Keyboard,Monitor,Repeater only,A,Routers forward packets between networks.,1
+158,32,What does bandwidth broadly measure?,Data carrying capacity,Screen brightness,Cable length only,Password strength,A,Bandwidth describes a link's data carrying capacity.,2
+159,32,Which protocol commonly assigns IP settings automatically?,DHCP,HTML,SMTP,SSH,A,DHCP can assign IP configuration automatically.,2
+160,32,HTTPS protects web traffic using what?,TLS,Plain text only,DNS only,FTP,A,HTTPS uses TLS to protect HTTP communication.,2
+161,33,What does DNS translate?,Domain names to IP addresses,Files to folders,TCP to UDP,Images to text,A,DNS resolves names to records such as IP addresses.,1
+162,33,Which device forwards traffic between networks?,Router,Keyboard,Monitor,Repeater only,A,Routers forward packets between networks.,1
+163,33,What does bandwidth broadly measure?,Data carrying capacity,Screen brightness,Cable length only,Password strength,A,Bandwidth describes a link's data carrying capacity.,2
+164,33,Which protocol commonly assigns IP settings automatically?,DHCP,HTML,SMTP,SSH,A,DHCP can assign IP configuration automatically.,2
+165,33,HTTPS protects web traffic using what?,TLS,Plain text only,DNS only,FTP,A,HTTPS uses TLS to protect HTTP communication.,2
+166,34,Which expression is equivalent to NOT (P AND Q)?,NOT P AND NOT Q,NOT P OR NOT Q,P OR Q,P AND NOT Q,B,"By De Morgan's law, not(P and Q) equals not P or not Q.",2
+167,34,Which expression is equivalent to P implies Q?,P AND Q,NOT P OR Q,P OR NOT Q,NOT P AND Q,B,Implication P→Q is equivalent to ¬P∨Q.,3
+168,34,When is P AND Q true?,When either is true,Only when both are true,Only when both are false,Always,B,Conjunction is true only if both operands are true.,1
+169,34,Which operation is true when exactly one of P and Q is true?,AND,OR,XOR,XNOR,C,Exclusive OR is true when the inputs differ.,2
+170,34,P OR NOT P is an example of what?,Contradiction,Tautology,Contingency only,Implication,B,A proposition or its negation is always true.,2
+171,35,A statement that is always true is called what?,Contradiction,Tautology,Variable,Set,B,A tautology is true under every valuation.,1
+172,35,What is the probability of an impossible event?,0,1,1/2,Undefined always,A,An impossible event has probability zero.,1
+173,35,What does a determinant apply to?,Square matrices,Only vectors of length one,All graphs,Strings,A,Determinants are defined for square matrices.,2
+174,35,"In an undirected graph, an edge connects what?",Vertices,Matrices,Functions only,Probabilities,A,Graph edges connect vertices.,1
+175,35,What is the derivative of x^2?,x,2x,x^3,2,B,"By the power rule, derivative of x squared is 2x.",2
+176,36,Which keyword defines a function?,func,define,def,function,C,Python function definitions start with def.,1
+177,36,What does return do?,Prints always,Sends a result back to caller,Repeats function,Imports a module,B,return exits a function and can provide a value.,2
+178,36,What is a parameter?,A function input variable,A loop,A module,An error,A,Parameters receive values passed to a function.,2
+179,36,Which call correctly invokes greet with no arguments?,greet,call greet(),greet(),def greet,C,Use the function name followed by parentheses.,1
+180,36,What is a default argument?,A required argument,A value used if caller omits argument,A return type,A global variable,B,Default values are used when an argument is not provided.,2
+181,37,A statement that is always true is called what?,Contradiction,Tautology,Variable,Set,B,A tautology is true under every valuation.,1
+182,37,What is the probability of an impossible event?,0,1,1/2,Undefined always,A,An impossible event has probability zero.,1
+183,37,What does a determinant apply to?,Square matrices,Only vectors of length one,All graphs,Strings,A,Determinants are defined for square matrices.,2
+184,37,"In an undirected graph, an edge connects what?",Vertices,Matrices,Functions only,Probabilities,A,Graph edges connect vertices.,1
+185,37,What is the derivative of x^2?,x,2x,x^3,2,B,"By the power rule, derivative of x squared is 2x.",2
+186,38,Probability values lie in which interval?,0 to 1 inclusive,-1 to 1,0 to 1000,Any real number,A,Probability is between zero and one inclusive.,1
+187,38,"For equally likely outcomes, probability equals what?",Favourable outcomes / total outcomes,Total / favourable,Favourable + total,Total minus favourable,A,This is the classical probability formula.,1
+188,38,What is the probability of heads on a fair coin?,0,1/4,1/2,1,C,A fair coin has two equally likely outcomes.,1
+189,38,"If events A and B are independent, P(A and B) equals?",P(A)+P(B),P(A)P(B),P(A)-P(B),P(A)/P(B) always,B,Independent events multiply for their intersection.,3
+190,38,What is the complement probability of A?,1 + P(A),1 - P(A),P(A)^2,P(A) / 2,B,P(not A)=1-P(A).,2
+191,39,A matrix is arranged in what form?,Rows and columns,Only a single list,Tree nodes,Graph edges only,A,Matrices contain entries arranged in rows and columns.,1
+192,39,When can a square matrix have an inverse?,Its determinant is nonzero,All entries are zero,It has one row only,Its determinant is always zero,A,A square matrix is invertible iff its determinant is nonzero.,3
+193,39,What is the identity matrix diagonal?,All zeros,All ones with off-diagonal ones,"Ones on main diagonal, zeros elsewhere",Random values,C,The identity matrix has ones on the main diagonal and zeros elsewhere.,2
+194,39,Matrix dimensions are written as what?,Columns x rows always,Rows x columns,Only total elements,Determinant x rank,B,Dimensions are conventionally rows by columns.,1
+195,39,Can matrices with incompatible dimensions be multiplied?,"Yes, always",No,Only if entries are integers,Only if both are identity,B,"For AB, columns of A must equal rows of B.",3
+196,40,A statement that is always true is called what?,Contradiction,Tautology,Variable,Set,B,A tautology is true under every valuation.,1
+197,40,What is the probability of an impossible event?,0,1,1/2,Undefined always,A,An impossible event has probability zero.,1
+198,40,What does a determinant apply to?,Square matrices,Only vectors of length one,All graphs,Strings,A,Determinants are defined for square matrices.,2
+199,40,"In an undirected graph, an edge connects what?",Vertices,Matrices,Functions only,Probabilities,A,Graph edges connect vertices.,1
+200,40,What is the derivative of x^2?,x,2x,x^3,2,B,"By the power rule, derivative of x squared is 2x.",2
+201,41,A statement that is always true is called what?,Contradiction,Tautology,Variable,Set,B,A tautology is true under every valuation.,1
+202,41,What is the probability of an impossible event?,0,1,1/2,Undefined always,A,An impossible event has probability zero.,1
+203,41,What does a determinant apply to?,Square matrices,Only vectors of length one,All graphs,Strings,A,Determinants are defined for square matrices.,2
+204,41,"In an undirected graph, an edge connects what?",Vertices,Matrices,Functions only,Probabilities,A,Graph edges connect vertices.,1
+205,41,What is the derivative of x^2?,x,2x,x^3,2,B,"By the power rule, derivative of x squared is 2x.",2
+206,42,A statement that is always true is called what?,Contradiction,Tautology,Variable,Set,B,A tautology is true under every valuation.,1
+207,42,What is the probability of an impossible event?,0,1,1/2,Undefined always,A,An impossible event has probability zero.,1
+208,42,What does a determinant apply to?,Square matrices,Only vectors of length one,All graphs,Strings,A,Determinants are defined for square matrices.,2
+209,42,"In an undirected graph, an edge connects what?",Vertices,Matrices,Functions only,Probabilities,A,Graph edges connect vertices.,1
+210,42,What is the derivative of x^2?,x,2x,x^3,2,B,"By the power rule, derivative of x squared is 2x.",2
+211,43,A statement that is always true is called what?,Contradiction,Tautology,Variable,Set,B,A tautology is true under every valuation.,1
+212,43,What is the probability of an impossible event?,0,1,1/2,Undefined always,A,An impossible event has probability zero.,1
+213,43,What does a determinant apply to?,Square matrices,Only vectors of length one,All graphs,Strings,A,Determinants are defined for square matrices.,2
+214,43,"In an undirected graph, an edge connects what?",Vertices,Matrices,Functions only,Probabilities,A,Graph edges connect vertices.,1
+215,43,What is the derivative of x^2?,x,2x,x^3,2,B,"By the power rule, derivative of x squared is 2x.",2

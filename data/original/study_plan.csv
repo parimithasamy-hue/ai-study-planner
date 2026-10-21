@@ -1,0 +1,7 @@
+plan_id,plan_date,topic_id,planned_minutes,reason,status
+1,2026-10-22,4,45,Low quiz score: extra practice,planned
+2,2026-10-22,34,40,Low quiz score: revise truth tables,planned
+3,2026-10-23,17,45,Practice normal forms,planned
+4,2026-10-23,26,30,Compare protocol features,planned
+5,2026-10-24,10,60,High difficulty topic,planned
+6,2026-10-24,38,45,Continue syllabus coverage,planned
